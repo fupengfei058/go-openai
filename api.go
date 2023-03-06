@@ -105,7 +105,7 @@ func (c *Client) newStreamRequest(
 	req.Header.Set("Accept", "text/event-stream")
 	req.Header.Set("Cache-Control", "no-cache")
 	req.Header.Set("Connection", "keep-alive")
-	req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", c.config.authToken))
+	req.Header.Set("Authorization", fmt.Sprintf("Bearer %s", c.config.AuthToken))
 
 	return req, nil
 }
