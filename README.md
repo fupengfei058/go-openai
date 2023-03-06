@@ -1,6 +1,6 @@
 # Go OpenAI
-[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/sashabaranov/go-openai)
-[![Go Report Card](https://goreportcard.com/badge/github.com/sashabaranov/go-openai)](https://goreportcard.com/report/github.com/sashabaranov/go-openai)
+[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/fupengfei058/go-openai)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fupengfei058/go-openai)](https://goreportcard.com/report/github.com/fupengfei058/go-openai)
 
 > **Note**: the repository was recently renamed from `go-gpt3` to `go-openai`
 
@@ -13,7 +13,7 @@ This library provides Go clients for [OpenAI API](https://platform.openai.com/).
 
 Installation:
 ```
-go get github.com/sashabaranov/go-openai
+go get github.com/fupengfei058/go-openai
 ```
 
 
@@ -25,7 +25,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/fupengfei058/go-openai"
 )
 
 func main() {
@@ -65,7 +65,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/fupengfei058/go-openai"
 )
 
 func main() {
@@ -97,7 +97,7 @@ import (
 	"context"
 	"fmt"
 	"io"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/fupengfei058/go-openai"
 )
 
 func main() {
@@ -145,7 +145,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/fupengfei058/go-openai"
 )
 
 func main() {
@@ -185,5 +185,5 @@ config.HTTPClient = &http.Client{
 c := openai.NewClientWithConfig(config)
 ```
 
-See also: https://pkg.go.dev/github.com/sashabaranov/go-openai#ClientConfig
+See also: https://pkg.go.dev/github.com/fupengfei058/go-openai#ClientConfig
 </details>
